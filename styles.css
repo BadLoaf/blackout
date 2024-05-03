@@ -1,0 +1,13 @@
+body {
+  background: #000;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  background: #fff;
+  color: #000;
+  padding: 0.1em;
+  padding-top: 0.3em;
+  font-family: 'Courier New', Courier, monospace;
+}

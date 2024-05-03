@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Blackout",
+  "description": "Blackout poetry in the digital age.",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icons/scribble-48.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icons/scribble-32.png",
+    "theme_icons": [
+      {
+        "light": "icons/scribble-32.png",
+        "dark": "icons/scribble-32.png",
+        "size": 32
+      }
+    ],
+    "default_title": "Blackout"
+  }
+}
